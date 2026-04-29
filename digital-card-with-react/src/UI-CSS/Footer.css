@@ -1,0 +1,24 @@
+.footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 12px 0;
+}
+
+.footer a,
+.footer button {
+  background: none;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #918E9B;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+/* Hover effect (important for polish) */
+.footer a:hover,
+.footer button:hover {
+  color: white;
+}

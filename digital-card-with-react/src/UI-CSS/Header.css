@@ -1,0 +1,73 @@
+header img {
+  width: 100%;
+  height: 317px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+header img:hover{
+    transform: scale(1.05);
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin: 16px 0 4px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+header p {
+  margin: 0;
+  color: #F3BF99;
+  font-size: 13px;
+}
+
+header small {
+  display: block;
+  margin-top: 6px;
+  font-size: 11px;
+  color: #F5F5F5;
+}
+
+/* Buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.btn-container button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Email button */
+.email-btn,
+.btn-container a:first-child {
+  background-color: white;
+  color: black;
+}
+.email-btn:hover,
+.btn-container a:first-child {
+  background-color:  rgb(231, 231, 231);
+}
+/* LinkedIn button */
+.linkedin-btn,
+.btn-container a:last-child {
+  background-color: #5093E2;
+  color: white;
+}
+
+.linkedin-btn:hover,
+.btn-container a:last-child {
+  background-color: #8cb8eb;
+}
